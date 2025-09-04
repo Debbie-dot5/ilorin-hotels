@@ -1,0 +1,6 @@
+first work on the hotel image card, which includes;
+the image
+the name
+the location
+the rating (stars)
+

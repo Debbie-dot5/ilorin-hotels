@@ -163,7 +163,9 @@ export default function HotelCard() {
                       </CardDescription>
                     </div>
                   </CardHeader>
-                  <CardContent className="px-4 py-2"></CardContent>
+                  <CardContent className="px-4 py-2">
+                  <p className="text-sm text-gray-600">{hotel.location}</p>
+                  </CardContent>
                   <CardFooter className="flex items-center justify-between px-4 py-3">
                     <div className="flex items-center space-x-1">{renderStars(hotel.rating)}</div>
                     <span className="text-sm font-medium text-gray-700">
@@ -197,7 +199,9 @@ export default function HotelCard() {
                   </CardDescription>
                 </div>
               </CardHeader>
-              <CardContent className="px-4 py-0"></CardContent>
+              <CardContent className="px-4 py-0">
+              <p className="text-sm text-gray-600">{hotel.location}</p>
+              </CardContent>
               <div className="flex items-center justify-between px-4 py-0">
                 <div className="flex items-center space-x-1">{renderStars(hotel.rating)}</div>
                 <span className="text-sm font-medium text-gray-700">
